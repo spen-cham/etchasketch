@@ -1,0 +1,60 @@
+html {
+    background-color:lightyellow;
+    font-family: "Galindo", sans-serif;
+}
+
+header {
+    text-align:center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+}
+
+.box  {
+    background-color: lightcyan;
+    border-style: solid;
+    border-color: black;
+    margin: -1px;
+}
+
+hr {
+    width: 100%;
+    margin: -5px;
+    background-color: transparent;
+    clear: both;
+    visibility: hidden;
+}
+
+.touched {
+    background-color: red;
+    transition-duration: 0.3s;
+}
+
+.options {
+    display: flex;
+    flex: 1 1 0;
+    flex-basis: 100%;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+button {
+    margin: 8px;
+    font-size: 20px;
+    font-family: "Galindo", sans-serif;
+    background-color: indianred;
+    padding: 12px;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.15);
+    transition-duration: 0.1s;
+    background-color: lightsalmon;
+}
